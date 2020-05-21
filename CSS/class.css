@@ -1,0 +1,171 @@
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  color: #333;
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.card {
+  background-color: white;
+  text-align:center;
+  margin:auto;
+  border: 1.5px solid #EFEFEF; 
+  /* box-shadow: 0px 0px 15px rgb(204, 204, 204); */
+}
+
+.profileImage {
+  border-radius:50%;
+  width:160px;
+  height:160px;
+  border:2px solid #6ED862;
+  object-fit: cover;
+  object-position: center;
+}
+
+.leftcolumn {
+  float: left;
+  /* width: 25%; */
+}
+
+.rightcolumn {
+  float: right;
+  /* width: 55%; */
+}
+
+.column {
+  float:none;
+  margin:auto;
+  /* text-align: center; */
+}
+
+.centercolumn {
+  text-align: center;
+}
+
+input.searchbar{
+  font-family:'Century Gothic', sans-serif;
+  font-size: 10px;
+            
+  box-sizing: border-box;
+  margin: 8px 0;
+  width: 15%;
+  padding: 7px 9px;
+
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 1px;
+            
+  background-color:white ;
+  color:rgb(175, 175, 175);
+
+  margin-left: 15px;
+
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+  
+input.searchbar:focus{
+  border: 1px solid rgb(78, 78, 78);
+  width: 30%;
+  }
+
+input.submit_change {
+    /* background-color: rgb(221, 221, 221); */
+    background-color:white;
+    border: 1px solid rgb(231, 231, 231);
+    /* border: none; */
+    color: rgb(99, 99, 99);
+    padding: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 20%;
+    font-size: 15px;
+  }
+
+input.submit_change:hover{
+  background-color:rgb(114, 235, 100);
+  color:rgb(255, 255, 255);
+  /* transition: .8s ease .15s; */
+  transition: all 0.4s ease;
+}
+
+.bio_edit{
+    padding: 10px 10px;
+    outline:none;
+    font-size: 15px;
+    width: 75%;
+    border: 1.5px solid rgb(170, 170, 170);
+    border-radius: 1px;
+    color: rgb(124, 124, 124);
+}
+
+.bio_edit:focus{
+  border: 3px solid rgb(135, 231, 105);
+  outline:none;
+}
+
+input.username_edit{
+    font-size: 15px;
+    width: 75%;
+    border: 1.5px solid rgb(170, 170, 170);
+    border-radius: 1px;
+    color: rgb(124, 124, 124);
+  }
+  
+  input.username_edit:focus{
+    border: 3px solid rgb(135, 231, 105);
+    outline:none;
+  }
+
+.menubutton {
+  width: 210px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 10px;
+  float: right;
+  font-size: 12px;
+  background-color: rgb(242,242,242);
+  color:#909090;
+}
+
+.menubutton:hover {
+  background-color: grey;
+  color:rgb(63, 63, 63);
+  transition: 0.5s;
+}
+
+.menubutton:focus {
+  outline: none;
+}
+
+.profile_btns {
+  /* color:#D7D7D7; */
+  background: none;
+  border: none;
+  font-size: 10px;
+  color: rgb(145, 145, 145);
+  cursor:pointer;
+  padding-top: 15px;
+}
+
+input.username_edit::placeholder {
+    color: rgb(190, 190, 190);
+    font-size: 10px;
+    font-style: italic;
+    font-family:'Century Gothic', sans-serif;
+    text-align: center;
+}
+
+textarea.bio_edit::placeholder {
+    color: rgb(190, 190, 190);
+    font-size: 10px;
+    font-style: italic;
+    font-family:'Century Gothic', sans-serif;
+    text-align: center;
+}
