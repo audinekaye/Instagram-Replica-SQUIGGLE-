@@ -1,0 +1,39 @@
+@Audine K. 
+---------------
+Project on GitHub :x:
+
+Register
+Correct form input's :white_check_mark:
+Correct security :white_check_mark:
+User Experience :x:
+Password Encrypted :white_check_mark:
+Unique ID's :white_check_mark:
+email :white_check_mark:
+creation_date :white_check_mark:
+Log In on Data registered :white_check_mark:
+User Profile section  
+Username :white_check_mark:
+View email :x:
+Can upload Profile Picture :white_check_mark:
+Can update Bio :white_check_mark:
+Can update Username :white_check_mark:
+ Date joined :white_check_mark: +
+ Profile Picture :white_check_mark:
+ Views preview :white_check_mark: +
+ Caption :white_check_mark:
+Upload picture :white_check_mark:
+
+Private feed :white_check_mark:
+Public feed :white_check_mark:
+Public feed identification :white_check_mark:
+logout with confirmation :white_check_mark:
+
+camelCase :x:
+
+ BUGS 
+- can submit without data
+- user experience on inputs
+
+Next:
+- Can upload JS <script>alert(Hello);</script>
+Not proper error handling :x:

@@ -1,3 +1,4 @@
+<!-- ------------------------ Register Form ----------------------------- -->
 <div id="register_form" class="card" style="display:none;">
     <h2 style="margin-top:40px;letter-spacing:8px;">SQUIGGLE</h2>
     <br>

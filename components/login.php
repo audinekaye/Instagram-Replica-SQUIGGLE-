@@ -1,3 +1,4 @@
+<!-- ------------------------ Login Page ----------------------------- -->
 <div id="login_form" class="card" >
     <h2 style="margin-top:40px;letter-spacing:8px;">SQUIGGLE</h2>
     <br>

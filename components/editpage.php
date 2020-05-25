@@ -31,12 +31,3 @@
         <br><br><br>
     </div>
 </div>
-<br>
-<script src="../JS/img_preview.js"></script>
-<script>
-    function clearInput(){
-        document.getElementById("username_input").value = "";
-        document.getElementById("bio_input").value = "";
-        document.getElementById("output_image").src = "../graphics/noicon.jpg";
-    }
-</script>

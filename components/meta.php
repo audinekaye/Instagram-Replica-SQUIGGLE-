@@ -21,4 +21,12 @@
     if (session_status() == PHP_SESSION_NONE){
         session_start();
     }
+
+    require 'SQL/dbdetails.php';
+
+    try {
+        $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
+    }
+    catch(PDOException $e) {
+    }
 ?>

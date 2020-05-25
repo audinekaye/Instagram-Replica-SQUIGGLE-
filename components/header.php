@@ -3,6 +3,7 @@
         <h2 style="margin-top: 7px;"><i class="fas fa-wave-square"></i></h2>
     </div>
 
+    <!-- ------------------------ Navbar ----------------------------- -->
     <div class="navbar" style="text-align:center;">
         <div style="float:none;">
             <button id="settings_btn" class="settings_btn" style="cursor:pointer;float:right;"><i class="fas fa-ellipsis-h"></i></button>
@@ -16,7 +17,7 @@
                     <br>
 
                     <div style="margin:auto;text-align:center;">
-                        <a href="" id="logout" style="border: 1px solid rgb(248, 248, 248) ;padding: 14px 90px;" onclick="LogOut()">LOGOUT</a>  
+                        <a href="" id="logout" style="border: 1px solid rgb(248, 248, 248) ;padding: 14px 80px;" onclick="LogOut()">LOGOUT</a>  
                     </div>
 
                     <br>
@@ -26,6 +27,7 @@
             </div>
             <!-- --------------------------------------------------------------------------- -->
 
+            <!-- ------------------------ JS For Settings Modal ----------------------------- -->
             <script src="../JS/settingsmodal.js"></script>
             <script> 
                 function LogOut(){
@@ -39,10 +41,14 @@
                     }
                 }
             </script>
+            <!-- --------------------------------------------------------------------------- -->
+
+            <!-- ------------------------ Nav Buttons ----------------------------- -->
             <a href="userprofile.php" style="float:right"><i class="far fa-user"></i></i></a>
             <!-- <a href="#" style="float:right"><i class="far fa-heart"></i></a>
             <a href="#" style="float:right"><i class="far fa-envelope"></i></a> -->
             <a href="userpage.php" style="float:right"><i class="fas fa-home"></i></a>
+            <!-- ------------------------------------------------------------------ -->
         </div>
     </div>
 </div>

@@ -21,11 +21,12 @@
             $result = $stmt->fetch(PDO::FETCH_ASSOC);
             $hash = $result["password"];
             if (password_verify($password, $hash)) {
-                $_SESSION["id"] = $result["id"];
-                $_SESSION["username"] = $result["username"];
-                $_SESSION["email"] = $result["email"];
-                $_SESSION["image"] = $result["image"];
-                $_SESSION["bio"] = $result["bio"];
+                $_SESSION["id"]             = $result["id"];
+                $_SESSION["username"]       = $result["username"];
+                $_SESSION["email"]          = $result["email"];
+                $_SESSION["image"]          = $result["image"];
+                $_SESSION["bio"]            = $result["bio"];
+                $_SESSION["creation_date"]  = $result["creation_date"];
                 
                 header("Location: ../userpage.php");
             } else {

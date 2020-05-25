@@ -28,6 +28,15 @@
   object-position: center;
 }
 
+.miniImage {
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  border:1px solid rgb(212, 212, 212);
+  object-fit: cover;
+  object-position: center;
+}
+
 .leftcolumn {
   float: left;
   /* width: 25%; */
@@ -168,4 +177,35 @@ textarea.bio_edit::placeholder {
     font-style: italic;
     font-family:'Century Gothic', sans-serif;
     text-align: center;
+}
+
+.feedImg {
+  width:200px;
+  height:200px;
+  border:2px solid rgb(204, 204, 204);
+  object-fit: cover;
+  object-position: center;
+}
+
+.feedDiv {
+  width:200px;
+  height:250px;
+  /* border:1px solid rgb(187, 187, 187); */
+  margin:10px;
+}
+
+.uni_feedImg {
+  width:650px;
+  height:650px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.uni_feedDiv {
+  width:650px;
+  min-height:800px;
+  border:1px solid rgb(221, 221, 221);
+  /* margin:10px; */
+  margin: auto;
+  margin-bottom: 100px;
 }

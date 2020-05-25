@@ -4,9 +4,9 @@
         <?php
             require "components/meta.php";
         ?>
-    <!-- yeet -->
     </head>
     <body>
+        <!-- -------------------- LOGIN AND REGISTER Page  ---------------------------- -->
         <?php
             require "SQL/connect.php";
 
@@ -43,7 +43,7 @@
                 require "components/register.php";
             ?>
         </div>
-
+        <!-- --------------------------------------------------------------------------- -->
         <script src="JS/signup.js"></script>
     </body>
 </html>
