@@ -4,6 +4,7 @@
         <?php
             require "components/meta.php";
         ?>
+    <!-- yeet -->
     </head>
     <body>
         <?php
